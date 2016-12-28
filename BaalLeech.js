@@ -646,6 +646,7 @@ function BaalLeech() {
 					baal = getUnit(1, 544);
 					Attack.kill(544);
 					Pickit.pickItems();
+					delay(90000);
 					if (ngCheck) {
 						return true;
 					}
@@ -654,8 +655,8 @@ function BaalLeech() {
 					}
 				} else {
 					Pather.moveTo(15177, 5952);
-					delay(90000);
 					baal = getUnit(1, 544);
+					delay(90000);
 					while (baal) {
 						if (ngCheck) {
 							return true;
